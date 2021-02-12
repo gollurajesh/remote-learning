@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: remote-learning
+Implementation-Version: 0.0.1
+Built-By: rajeshg
+Implementation-Vendor-Id: com.java.project
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://spring.io/projects/spring-boot/remort-lear
+ ning
+Created-By: Maven Integration for Eclipse
+

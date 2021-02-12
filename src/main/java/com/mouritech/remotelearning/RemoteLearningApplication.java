@@ -14,7 +14,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class RemoteLearningApplication extends SpringBootServletInitializer{
+public class RemoteLearningApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RemoteLearningApplication.class, args);
@@ -47,9 +47,4 @@ public class RemoteLearningApplication extends SpringBootServletInitializer{
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-	
-	@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(RemoteLearningApplication.class);
-    }
 }
